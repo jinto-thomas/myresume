@@ -5,6 +5,13 @@ body {
   letter-spacing: 1px;
 }
 
+@media only screen and (max-width: 1367px) {
+  .mailid{
+    font-size: 5px;
+    margin: 5px 20px;
+    letter-spacing: 0.1px;
+  }
+}
 #container {
   margin: 0px;
   display: flex;
@@ -15,9 +22,8 @@ body {
   margin: 0;
   padding: 0;
   width: 20%;
-  height: 980px;
+  height: 100%;
   background: #FFFFF0;
-/*  padding: 10px;*/
   float: left;
 }
 
@@ -26,8 +32,7 @@ body {
   padding: 0;
   width: 80%;
   background: #4BC1C1;
-  height: 980px;
-/*  padding: 10px;*/
+  height: 100%;
   float: right;
 }
 
@@ -60,7 +65,13 @@ body {
 #headlines_ivory {
   background: #FFFFF0;
 }
+
 .datas {
+  font-size: 15px;
+  margin: 5px 20px;
+}
+
+.mailid {
   font-size: 15px;
   margin: 5px 20px;
 }
