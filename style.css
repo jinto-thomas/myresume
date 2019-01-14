@@ -40,7 +40,8 @@ body {
   margin: 150px 50px 100px 50px;
   height: 200px;
   padding: 5px;
-  background: #000;
+  background: url("dp.jpeg");
+  background-position: -480px -200px; 
   border-radius: 50%;
 }
 
